@@ -1,12 +1,13 @@
 import ThemeToggler from "@/components/common/ThemeToggler"
+import { motion } from 'framer-motion';
 
 const Home = () => {
 
 
   return (
-    <div>
+    <motion.div key="idx">
       helllo
-    </div>
+    </motion.div>
   )
 
 }

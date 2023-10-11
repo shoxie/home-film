@@ -17,9 +17,7 @@ import ThemeToggler from "../common/ThemeToggler"
 
 export default function Header() {
   return (
-    <div className="flex flex-row items-center justify-between">
-      <div>
-        <Menubar>
+        <Menubar className="w-full px-5">
           <MenubarMenu>
             <MenubarTrigger>File</MenubarTrigger>
             <MenubarContent>
@@ -106,10 +104,5 @@ export default function Header() {
             </MenubarContent>
           </MenubarMenu>
         </Menubar>
-      </div>
-      <div>
-        <ThemeToggler />
-      </div>
-    </div>
   )
 }
