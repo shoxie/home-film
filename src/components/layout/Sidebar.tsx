@@ -55,7 +55,7 @@ const list = [
     },
     {
         name: "Radio",
-        href: "/playlist/edit",
+        href: "/playlist/edit11",
         icon: "radio",
         type: "link"
     },
@@ -84,7 +84,7 @@ export default function Sidebar({ className, playlists }: SidebarProps) {
                                             <Button key={item.name} variant="ghost" className="relative justify-start w-full"
                                             onClick={() => setIsSelected(item.href)}
                                         >
-                                            <div className="flex flex-row space-x-2 z-10 items-center">
+                                            <div className="z-10 flex flex-row items-center space-x-2">
                                                 <Icon name={item.icon as keyof typeof dynamicIconImports} size={16} />
                                                 <span>{item.name}</span>
                                             </div>
