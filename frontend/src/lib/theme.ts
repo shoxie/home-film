@@ -6,7 +6,7 @@ const colors = {
     body: {
       bg: {
         light: "#f8f9fa", // Light mode background
-        dark: "#141414",  // Netflix-like dark background
+        dark: "black",  // Netflix-like dark background
       },
       default: {
         light: "#333333", // Light mode text
